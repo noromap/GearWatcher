@@ -15,4 +15,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:text="登録画面に遷移"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="248dp"
+        android:onClick="onButton1"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
